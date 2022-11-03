@@ -1,0 +1,23 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": [
+            "Everything in Survival is Renewable, & More!",
+            "\n",
+            {
+                "text": "By Aelve for 1.19",
+                "color": "#40e0d0"
+            }
+        ]
+    },
+    "video_link": "",
+    "wiki_link": "",
+    "credits": {
+        "Creator": [
+            [
+                "Aelve",
+                "https://www.planetminecraft.com/member/aelve/"
+            ]
+        ]
+    }
+}

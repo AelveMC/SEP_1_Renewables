@@ -1,0 +1,9 @@
+{
+	"values":[
+		"sep_ancient_debris:tick/detect_piglins",
+		"sep_banner_patterns:tick",
+		"sep_echo_shard:detect_warden",
+		"sep_sand:tick/detect_burning_zombies",
+		"sep_ores:tick"
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+	"function": "sep_dead_bush:replace_block"
+  }
+}

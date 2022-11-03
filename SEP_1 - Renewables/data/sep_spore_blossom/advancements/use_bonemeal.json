@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:moss_block"]
+          }
+        },
+        "item": {
+          "items": ["minecraft:bone_meal"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sep_spore_blossom:raycast/start"
+  }
+}

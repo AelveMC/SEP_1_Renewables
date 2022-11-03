@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {},
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin",
+              "nbt": "{Tags: [\"sep_brute_gaxe\", \"sep_brute_gapple\"]}",
+              "effects": {
+                "minecraft:strength": {
+                  "amplifier": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sep_ancient_debris:convert_piglin/advancement_hurt_piglin"
+  }
+}

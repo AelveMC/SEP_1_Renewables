@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:sculk_catalyst"]
+          }
+        },
+        "item": {
+          "items": ["minecraft:soul_sand"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sep_sand:raycast/start"
+  }
+}

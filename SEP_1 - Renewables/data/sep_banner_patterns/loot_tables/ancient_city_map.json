@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "decoration": "target_x",
+              "function": "minecraft:exploration_map",
+			  "destination": "sep_banner_patterns:ancient_city_locator",
+              "skip_existing_chunks": false,
+              "zoom": 2
+            },
+			{
+			  "function": "set_nbt",
+			  "tag": "{display:{MapColor:9876543, Name:\"[{\\\"text\\\":\\\"Ancient Explorer Map\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}]\"}}"
+				
+			}
+          ],
+          "name": "minecraft:map"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

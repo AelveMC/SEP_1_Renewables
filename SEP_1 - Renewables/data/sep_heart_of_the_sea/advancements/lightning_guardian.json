@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "lightning": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "lightning",
+                "entity_struck": {
+                  "type": "minecraft:guardian"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bystand": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "bystander": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:guardian"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "struck",
+      "bystand"
+    ]
+  ],
+  "rewards": {
+    "function": "sep_heart_of_the_sea:detect_guardian"
+  }
+}

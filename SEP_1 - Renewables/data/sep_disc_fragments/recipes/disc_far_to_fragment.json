@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:music_disc_far"
+        }
+    ],
+    "result": {
+        "item": "minecraft:disc_fragment_5",
+        "count": 1
+    }
+}

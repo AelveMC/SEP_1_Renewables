@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "location": {
+          "biome": "minecraft:lush_caves",
+          "block": {
+            "blocks": [
+              "minecraft:clay"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sep_small_dripleaf:raycast/start"
+  }
+}

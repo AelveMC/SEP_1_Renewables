@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "PCP",
+        "#P#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:charcoal"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "C": {
+            "item": "minecraft:chiseled_polished_blackstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:piglin_banner_pattern",
+        "count": 1
+    },
+    "group": "banner_patterns"
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+		"item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "sep_ancient_debris:tag_piglin/advancement_gapple"
+  }
+}
