@@ -7,4 +7,4 @@ scoreboard objectives add sep_undead_burn_time dummy
 execute store result score $undead_burn_dummy sep_undead_burn_time run time query daytime
 
 # Check requirements and tag.
-execute unless score $undead_burn_dummy sep_undead_burn_time matches 12541..23460 if predicate sep_sand:check_sky unless entity @s[nbt={ArmorItems: [{}, {}, {}, {Count: 1b}]}] run tag @s add sep_sunburnt
+execute unless score $undead_burn_dummy sep_undead_burn_time matches 12541..23460 if predicate sep_sand:check_sky unless entity @s[nbt={ArmorItems: [{}, {}, {}, {Count: 1b}]}] unless predicate sep_sand:check_raining run tag @s add sep_sunburnt

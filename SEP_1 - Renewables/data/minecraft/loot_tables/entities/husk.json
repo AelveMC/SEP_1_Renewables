@@ -88,7 +88,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 2
+                "max": 8
               },
               "add": false
             },
@@ -97,11 +97,17 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 1
+                "max": 4
               }
             }
           ]
-        },
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:red_sand",
@@ -112,7 +118,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 2
+                "max": 4
               }
             },
             {
@@ -120,10 +126,16 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,
-                "max": 1
+                "max": 2
               }
             }
-          ]
+          ],
+		  "conditions": [
+			{
+				"condition": "random_chance",
+				"chance": 0.1
+			}
+		  ]
         }
       ]
     }
