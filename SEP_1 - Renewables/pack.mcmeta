@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 10,
         "description": [
-            "Everything in Survival is Renewable, & More!",
+            "Everything in Survival is Renewable!",
             "\n",
             {
                 "text": "By Aelve for 1.19",
@@ -11,7 +11,7 @@
         ]
     },
     "video_link": "",
-    "wiki_link": "",
+    "wiki_link": "https://github.com/AelveMC/SEP_1_Renewables/wiki",
     "credits": {
         "Creator": [
             [

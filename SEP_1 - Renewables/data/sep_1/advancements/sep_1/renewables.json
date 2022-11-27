@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Renewables",
+        "description": ["",{"text":"All normally obtainable items are now renewable, with a focus on balanced gameplay.","color":"gold"}],
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "sep_1:aelve",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
+{'text':'','color':'gold'}
