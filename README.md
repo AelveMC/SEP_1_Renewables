@@ -5,16 +5,16 @@ SEP #1 Renewables focuses on correcting the existing blocks and items that are f
 The current version is designed for Singleplayer Minecraft 1.19.2. _Multiplayer is untested!!_
 
 ## Notable Features
-Adds various methods for obtaining resources renewably; including new crafting recipes, modified loot tables, and some minor overhauls of mechanics, among others.
+Adds various methods for obtaining resources renewably: including new crafting recipes, modified loot tables, and some minor overhauls of mechanics, among others.
 
 ### Resource Changes
 List of all blocks and items that can now be obtained in additional ways.
 
 - **Ancient Debris:** Piglin brutes have a chance of dropping this, among other items.
-- **Banner Patterns:** Removes existing crafting recipes and replaces them with new ones based off shiseled Blocks, charcoal, and paper.
+- **Banner Patterns:** Removes existing crafting recipes and replaces them with new ones based off chiseled blocks, charcoal, and paper.
 - **Bell:** Adds new crafting recipe with iron, gold, and noteblock.
 - **Blackstone:** Adds new furnace recipe for smooth basalt.
-- **Calcite:** Adds new crafting with dripstoneblocks and furnaces recipes for bone blocks.
+- **Calcite:** Adds new crafting with dripstone blocks and furnaces recipes for bone blocks.
 - **Cobbled Deepslate:** Adds new furnace recipe with mud.
 - **Cobweb:** Adds new crafting recipe with string and slime balls.
 - **Coral Blocks:** Adds new crafting recipe with corresponding coral and coral fans.
@@ -29,10 +29,10 @@ List of all blocks and items that can now be obtained in additional ways.
 - **Enchanted Book: Swift Sneak:** Fish up this treasure.
 - **Enchanted Golden Apple:** Cats can gift this to you.
 - **Endstone:** Adds new crafting recipe with cobblestone and popped chorus fruit.
-- **Gilded Blackstone:** Adds new crafting recipe with gilde blackstone, blackstone, and gold.
+- **Gilded Blackstone:** Adds new crafting recipe with gilded blackstone, blackstone, and gold.
 - **Gravel:** Drops from silverfish infested blocks. 
 - **Heart of the Sea:** Drops from elder guardians.
-- **Horse Armor:** Gifted fomr leatherworker villagers.
+- **Horse Armor:** Chance to be gifted from leatherworker villagers.
 - **Large Fern:** Now drops itself.
 - **Lily Pad:** Bonemeal grass block near water in mangroves and swamps.
 - **Netherrack:** Adds new crafting recipe with clay ball and blaze powder.
@@ -44,10 +44,10 @@ List of all blocks and items that can now be obtained in additional ways.
 - **Scute:** Fish up this treasure from ocean type biomes.
 - **Small Dripleaf:** Bonemeal clay underwater in lush caves.
 - **Soul Sand:** Adds new crafting recipe with soul sand, sand, and sculk.
-- **Soul Soil:** Adds new crafting recipe with soul san, and gravel.
-- **Spore Blossom:** Bonemeal moss blocks in luch caves, with an existing spore blossom next to it.
+- **Soul Soil:** Adds new crafting recipe with soul sand, and gravel.
+- **Spore Blossom:** Bonemeal moss blocks in lush caves, with an existing spore blossom next to it.
 - **Tall Grass:** Now drops itself.
-- **Tuff:** Adds new crafing recipe with andesite, basalt, calcite.
+- **Tuff:** Adds new crafting recipe with andesite, basalt, calcite.
 - **Wet Sponge:** Now drops from guardians.
 
 ### Mechanics Changes
