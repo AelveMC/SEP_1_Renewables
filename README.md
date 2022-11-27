@@ -54,7 +54,7 @@ List of all blocks and items that can now be obtained in additional ways.
 These additional changes were made to support some of the changes above.
 
  - **Piglins:** Can now converted to Piglin Brutes with a golden axe, golden apple, and a strength 2 potion.
- - **Cartographer Villaer:** Sells maps to Ancient Cities.
+ - **Cartographer Villager:** Sells maps to Ancient Cities.
  - **Music disk Fragments:** Used to craft all music disks, not just "5".
  - **Guardians:** Lightning converts these into elder guardians.
  - **Husks**: Zombies that survive burning in sunlight convert to husks.
