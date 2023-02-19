@@ -2,6 +2,7 @@
 # Called from sep_sand:tick/detect_burning_husks
 # The chosen zombie moves its properties over the to husk, before being deleted.
 
+execute as @e[type=minecraft:zombie] at @s run playsound minecraft:item.axe.scrape hostile @a[distance=..32]
 summon minecraft:husk ~ ~ ~
 
 # Merge relevant properties.

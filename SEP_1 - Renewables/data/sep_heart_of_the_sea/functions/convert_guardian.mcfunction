@@ -2,6 +2,7 @@
 # Called from function sep_heart_of_the_sea:detect_guardian
 # The chosen guardian moves its properties over the to elder, before being deleted.
 
+execute as @e[type=minecraft:guardian] at @s run playsound minecraft:item.trident.thunder hostile @a[distance=..32]
 summon elder_guardian ~ ~ ~
 
 # Merge relevant properties.
