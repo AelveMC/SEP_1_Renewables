@@ -85,3 +85,7 @@ Then delete datapack from ".minecraft\saves\<Name of Save File>\datapacks".
 <li>CloudWolf; for the detecting sky predicate. https://www.youtube.com/watch?v=FmcoixQOrS4
 <li>Arcensoth: for a list of all blocks.  https://github.com/Arcensoth/mcdata/blob/master/processed/reports/registries/block/data.json
 </details>
+
+## Changelog
+1.2
+Cherry saplings, Pitcher plant, andTorchflower will converted to dead bush on lightning strike.
