@@ -87,5 +87,5 @@ Then delete datapack from ".minecraft\saves\<Name of Save File>\datapacks".
 </details>
 
 ## Changelog
-1.2
+1.2  
 Cherry saplings, Pitcher plant, andTorchflower will converted to dead bush on lightning strike.
