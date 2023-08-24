@@ -95,4 +95,4 @@ Loot tables now use new random_sequence tag.
 Forwarded 1.20 changes to relevant loot tables.  
 Added suspicious gravel/sand recipes. TODO create wiki pages  
 Armor trims now duplicate with copper ingots instead of diamonds. TODO create wiki pages  
-
+Netherite gear can be uncrafted into Netherite Upgrades. TODO create wiki pages  
