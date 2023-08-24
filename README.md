@@ -90,8 +90,9 @@ Then delete datapack from ".minecraft\saves\<Name of Save File>\datapacks".
 1.2  
 Cherry saplings, Pitcher plant, andTorchflower will converted to dead bush on lightning strike.  
 Added Relic music disc to fragment system.  
-Buffed fragment drop rate for non-creeper droppede discs.  
+Buffed fragment drop rate for non-creeper dropped discs.  
 Loot tables now use new random_sequence tag.  
 Forwarded 1.20 changes to relevant loot tables.  
 Added suspicious gravel/sand recipes. TODO create wiki pages  
+Armor trims now use copper ingots instead of diamonds. TODO create wiki pages  
 
