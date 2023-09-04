@@ -85,16 +85,3 @@ Then delete datapack from ".minecraft\saves\<Name of Save File>\datapacks".
 <li>CloudWolf; for the detecting sky predicate. https://www.youtube.com/watch?v=FmcoixQOrS4
 <li>Arcensoth: for a list of all blocks.  https://github.com/Arcensoth/mcdata/blob/master/processed/reports/registries/block/data.json
 </details>
-
-## Changelog
-1.2  
-Cherry saplings, Pitcher plant, and Torchflower will converted to dead bush on lightning strike.  
-Added Relic music disc to fragment system.  
-Buffed fragment drop rate for non-creeper dropped discs.  
-Loot tables now use new random_sequence tag.  
-Forwarded 1.20 changes to relevant loot tables.  
-Added suspicious gravel/sand recipes.  
-Armor trims now duplicate with copper ingots instead of diamonds.  
-Armor trims now are sold by Master armorer villagers.  
-Netherite gear can be uncrafted into Netherite Upgrades.  
-Pottery sherds now sold by Master masons.  
