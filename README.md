@@ -88,13 +88,13 @@ Then delete datapack from ".minecraft\saves\<Name of Save File>\datapacks".
 
 ## Changelog
 1.2  
-Cherry saplings, Pitcher plant, andTorchflower will converted to dead bush on lightning strike.  
+Cherry saplings, Pitcher plant, and Torchflower will converted to dead bush on lightning strike.  
 Added Relic music disc to fragment system.  
 Buffed fragment drop rate for non-creeper dropped discs.  
 Loot tables now use new random_sequence tag.  
 Forwarded 1.20 changes to relevant loot tables.  
-Added suspicious gravel/sand recipes. TODO create wiki pages  
-Armor trims now duplicate with copper ingots instead of diamonds. TODO create wiki pages  
-Armor trims now are sold by Master armorer villagers. TODO create wiki pages  
+Added suspicious gravel/sand recipes.  
+Armor trims now duplicate with copper ingots instead of diamonds.  
+Armor trims now are sold by Master armorer villagers.  
 Netherite gear can be uncrafted into Netherite Upgrades. TODO create wiki pages  
 Pottery sherds now sold by Master masons. TODO create wiki pages  
