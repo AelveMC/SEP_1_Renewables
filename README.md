@@ -96,5 +96,5 @@ Forwarded 1.20 changes to relevant loot tables.
 Added suspicious gravel/sand recipes.  
 Armor trims now duplicate with copper ingots instead of diamonds.  
 Armor trims now are sold by Master armorer villagers.  
-Netherite gear can be uncrafted into Netherite Upgrades. TODO create wiki pages  
-Pottery sherds now sold by Master masons. TODO create wiki pages  
+Netherite gear can be uncrafted into Netherite Upgrades.  
+Pottery sherds now sold by Master masons.  
