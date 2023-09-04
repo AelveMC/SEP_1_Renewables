@@ -5,6 +5,8 @@
 		"sep_echo_shard:detect_warden",
 		"sep_sand:tick/detect_burning_zombies",
 		"sep_ores:tick",
-		"sep_heart_of_the_sea:tick/run_timer"
+		"sep_heart_of_the_sea:tick/run_timer",
+		"sep_armor_trims:tick",
+		"sep_pottery_sherds:tick"
 	]
 }

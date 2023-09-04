@@ -3,14 +3,23 @@
     "example": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": ["minecraft:sculk_catalyst"]
-          }
-        },
         "item": {
-          "items": ["minecraft:soul_sand"]
-        }
+          "items": [
+            "minecraft:soul_sand"
+          ]
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:sculk_catalyst"
+                ]
+              }
+            }
+          }
+        ]
       }
     }
   },

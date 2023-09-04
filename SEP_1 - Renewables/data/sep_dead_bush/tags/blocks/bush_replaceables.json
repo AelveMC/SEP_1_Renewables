@@ -6,6 +6,7 @@
 		"minecraft:jungle_sapling",
 		"minecraft:acacia_sapling",
 		"minecraft:dark_oak_sapling",
+		"minecraft:cherry_sapling",
 		"minecraft:azalea",
 		"minecraft:flowering_azalea",
 		"minecraft:dandelion",
@@ -25,6 +26,8 @@
 		"minecraft:rose_bush",
 		"minecraft:peony",
 		"minecraft:large_fern",
-		"minecraft:fern"
+		"minecraft:fern",
+		"minecraft:pitcher_plant",
+		"minecraft:torchflower"
 	]
 }

@@ -44,5 +44,6 @@
       "function": "minecraft:set_nbt",
       "tag": "{sep_ore:1b}"
     }
-  ]
+  ],
+  "random_sequence": "sep_ores:ores"
 }

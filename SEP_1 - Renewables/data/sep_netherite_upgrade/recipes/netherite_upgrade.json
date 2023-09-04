@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "sep_netherite_upgrade:netherite_gear"
+        }
+    ],
+    "result": {
+        "item": "minecraft:netherite_upgrade_smithing_template",
+        "count": 1
+    },
+    "group": "sep_decraft_netherite"
+}

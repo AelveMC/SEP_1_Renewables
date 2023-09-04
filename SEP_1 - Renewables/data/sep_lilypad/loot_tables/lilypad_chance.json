@@ -28,5 +28,6 @@
       "function": "minecraft:set_nbt",
       "tag": "{sep_lily:1b}"
     }
-  ]
+  ],
+  "random_sequence": "sep_lilypad:lilypad_chance"
 }

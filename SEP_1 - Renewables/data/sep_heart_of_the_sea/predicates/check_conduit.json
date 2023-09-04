@@ -1,6 +1,6 @@
 [
   {
-    "condition": "minecraft:alternative",
+    "condition": "minecraft:any_of",
     "terms": [
 		{"condition":"minecraft:location_check","offsetX":-2,"offsetY":-2,"offsetZ":-2,"predicate":{"block":{"blocks":["minecraft:conduit"]}}},
 		{"condition":"minecraft:location_check","offsetX":-1,"offsetY":-2,"offsetZ":-2,"predicate":{"block":{"blocks":["minecraft:conduit"]}}},

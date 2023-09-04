@@ -8,14 +8,19 @@
             "minecraft:bone_meal"
           ]
         },
-        "location": {
-          "biome": "minecraft:mangrove_swamp",
-          "block": {
-            "blocks": [
-              "minecraft:grass_block"
-            ]
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:mangrove_swamp",
+              "block": {
+                "blocks": [
+                  "minecraft:grass_block"
+                ]
+              }
+            }
           }
-        }
+        ]
       }
     }
   },

@@ -282,5 +282,6 @@
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:gameplay/piglin_bartering"
 }

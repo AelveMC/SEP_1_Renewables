@@ -28,5 +28,6 @@
       "function": "minecraft:set_nbt",
       "tag": "{sep_drip:1b}"
     }
-  ]
+  ],
+  "random_sequence": "sep_small_dripleaf:dripleaf_chance"
 }
