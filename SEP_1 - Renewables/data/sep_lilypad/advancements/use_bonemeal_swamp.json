@@ -1,14 +1,17 @@
 {
   "criteria": {
-    "example": {
+    "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "item": {
-          "items": [
-            "minecraft:bone_meal"
-          ]
-        },
         "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          },
           {
             "condition": "minecraft:location_check",
             "predicate": {

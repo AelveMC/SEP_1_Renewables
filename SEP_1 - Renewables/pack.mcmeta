@@ -1,15 +1,24 @@
 {
     "pack": {
         "pack_format": 15,
+		"supported_formats": {"min_inclusive": 15, "max_inclusive": 26},
         "description": [
             "Everything in Survival is Renewable!",
             "\n",
             {
-                "text": "By Aelve for 1.19",
+                "text": "By Aelve for 1.20.x",
                 "color": "#40e0d0"
             }
         ]
     },
+	"overlays": {
+		"entries": [
+		  {
+			"formats": 26,
+			"directory": "1_20_4"
+		  }
+		]
+	},
     "video_link": "",
     "wiki_link": "https://github.com/AelveMC/SEP_1_Renewables/wiki",
     "credits": {
