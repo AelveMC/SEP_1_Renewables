@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "building",
     "pattern": [
         "gBg",
         "BGB",
@@ -17,7 +18,7 @@
         }
     },
     "result": {
-        "item": "minecraft:gilded_blackstone",
+        "id": "minecraft:gilded_blackstone",
         "count": 5
     }
 }

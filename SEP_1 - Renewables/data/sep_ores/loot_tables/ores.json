@@ -41,8 +41,8 @@
   ],
   "functions": [
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{sep_ore:1b}"
+      "function": "minecraft:set_custom_data",
+      "tag": "{sep_ore:true}"
     }
   ],
   "random_sequence": "sep_ores:ores"

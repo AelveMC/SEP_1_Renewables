@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
     "ingredients": [
         {
             "item": "minecraft:cobblestone"
@@ -9,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:end_stone",
+        "id": "minecraft:end_stone",
         "count": 1
     }
 }

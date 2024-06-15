@@ -15,9 +15,15 @@
               "zoom": 2
             },
 			{
-			  "function": "set_nbt",
-			  "tag": "{display:{MapColor:9876543, Name:\"[{\\\"text\\\":\\\"Ancient Explorer Map\\\",\\\"color\\\":\\\"white\\\",\\\"italic\\\":true}]\"}}"
-				
+			  "function": "minecraft:set_name",
+			  "target": "item_name",
+			  "name": "Ancient Explorer Map"
+			},
+			{
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:map_color": 9876543
+			  }
 			}
           ],
           "name": "minecraft:map"

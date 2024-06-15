@@ -1,24 +1,16 @@
 {
     "pack": {
-        "pack_format": 15,
-		"supported_formats": {"min_inclusive": 15, "max_inclusive": 26},
+        "pack_format": 41,
+		"supported_formats": {"min_inclusive": 41, "max_inclusive": 41},
         "description": [
             "Everything in Survival is Renewable!",
             "\n",
             {
-                "text": "By Aelve for 1.20.x",
+                "text": "By Aelve for 1.20.5",
                 "color": "#40e0d0"
             }
         ]
     },
-	"overlays": {
-		"entries": [
-		  {
-			"formats": 26,
-			"directory": "1_20_4"
-		  }
-		]
-	},
     "video_link": "",
     "wiki_link": "https://github.com/AelveMC/SEP_1_Renewables/wiki",
     "credits": {
@@ -28,5 +20,29 @@
                 "https://www.planetminecraft.com/member/aelve/"
             ]
         ]
-    }
+    },
+	"filter": {
+		"block": [
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/creeper_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/flower_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/mojang_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/skull_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipes/music_disc_5.json"
+		  }
+		]
+	}
 }

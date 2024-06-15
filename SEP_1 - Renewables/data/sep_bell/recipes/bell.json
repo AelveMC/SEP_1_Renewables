@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+	"category": "redstone",
     "pattern": [
         "igi",
         "iNi",
@@ -17,7 +18,7 @@
         }
     },
     "result": {
-        "item": "minecraft:bell",
+        "id": "minecraft:bell",
         "count": 1
     }
 }

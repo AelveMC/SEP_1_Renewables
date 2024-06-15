@@ -69,17 +69,23 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{StoredEnchantments: [{lvl:1, id: \"minecraft:swift_sneak\"}]}"
-            }
-          ],
+		  "functions": [
+			{
+			  "function": "minecraft:set_components",
+			  "components": {
+				"minecraft:enchantments": {
+				  "levels": {
+					"minecraft:swift_sneak": 1
+				  }
+				}
+			  }
+			}
+		  ],
 		  "name": "minecraft:enchanted_book"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:scute",
+          "name": "minecraft:turtle_scute",
           "conditions": [
             {
               "condition": "minecraft:any_of",

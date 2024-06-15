@@ -1,12 +1,13 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
     "ingredients": [
         {
             "item": "minecraft:sand"
         }
     ],
     "result": {
-        "item": "minecraft:suspicious_sand",
+        "id": "minecraft:suspicious_sand",
         "count": 1
     }
 }

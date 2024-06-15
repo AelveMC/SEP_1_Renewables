@@ -25,8 +25,8 @@
   ],
   "functions": [
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{sep_drip:1b}"
+      "function": "minecraft:set_custom_data",
+      "tag": "{sep_drip:true}"
     }
   ],
   "random_sequence": "sep_small_dripleaf:dripleaf_chance"

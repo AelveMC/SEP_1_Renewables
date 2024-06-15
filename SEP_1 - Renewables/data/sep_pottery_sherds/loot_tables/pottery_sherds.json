@@ -88,8 +88,8 @@
   ],
   "functions": [
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{sep_sherds:1b}"
+      "function": "minecraft:set_custom_data",
+      "tag": "{sep_sherds:true}"
     }
   ],
   "random_sequence": "sep_pottery_sherds:pottery_sherds"

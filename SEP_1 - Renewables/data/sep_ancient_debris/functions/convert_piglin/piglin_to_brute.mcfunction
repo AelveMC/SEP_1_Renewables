@@ -6,16 +6,16 @@ summon piglin_brute ~ ~ ~
 
 # Make piglin hold the axe you gave it earlier. 
 data modify entity @s HandItems[0] merge from entity @s Inventory[7]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[6]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[5]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[4]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[3]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[2]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[1]
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[0]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[6]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[5]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[4]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[3]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[2]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[1]
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run data modify entity @s HandItems[0] merge from entity @s Inventory[0]
 
 # If, somehow, it has lost the axe; give it one.
-execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", Count: 1b}]}] run item replace entity @s weapon.mainhand with minecraft:golden_axe
+execute unless entity @s[nbt={HandItems: [{id: "minecraft:golden_axe", count: 1}]}] run item replace entity @s weapon.mainhand with minecraft:golden_axe
 
 # Merge relevant properties.
 data modify entity @e[type=piglin_brute,sort=nearest,limit=1,distance=..1] Air set from entity @s Air

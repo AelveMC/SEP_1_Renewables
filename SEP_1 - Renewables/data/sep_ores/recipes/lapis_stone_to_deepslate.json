@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+	"category": "blocks",
     "ingredients": [
         {
             "item": "minecraft:lapis_ore"
@@ -9,7 +10,8 @@
         }
     ],
     "result": {
-        "item": "minecraft:deepslate_lapis_ore",
+        "id": "minecraft:deepslate_lapis_ore",
         "count": 1
-    }
+    },
+	"group": "ore_to_stone"
 }

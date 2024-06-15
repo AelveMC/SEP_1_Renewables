@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "misc",
     "pattern": [
         "###",
         "#M#",
@@ -14,7 +15,11 @@
         }
     },
     "result": {
-        "item": "minecraft:music_disc_stal",
+        "id": "minecraft:music_disc_stal",
+		"components": {
+		  "max_stack_size": 2
+		},
         "count": 2
-    }
+    },
+	"group": "disc_copies"
 }

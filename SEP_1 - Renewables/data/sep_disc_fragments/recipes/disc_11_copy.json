@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "misc",
     "pattern": [
         "###",
         "#M#",
@@ -10,11 +11,15 @@
             "item": "minecraft:disc_fragment_5"
         },
         "M": {
-            "item": "minecraft:music_disc_ward"
+            "item": "minecraft:music_disc_11"
         }
     },
     "result": {
-        "item": "minecraft:music_disc_ward",
+        "id": "minecraft:music_disc_11",
+		"components": {
+		  "max_stack_size": 2
+		},
         "count": 2
-    }
+    },
+	"group": "disc_copies"
 }

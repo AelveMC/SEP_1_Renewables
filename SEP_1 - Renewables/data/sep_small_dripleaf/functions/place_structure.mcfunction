@@ -10,10 +10,10 @@ place template sep_small_dripleaf:dripleaf ~-3 ~0 ~-3
 execute at @e[type=minecraft:armor_stand,tag=sep_temp_drip] run loot spawn ~ ~ ~ loot sep_small_dripleaf:dripleaf_chance
 
 # Place a small dripleaf if the armor stand and item are in the same place.
-execute at @e[type=minecraft:armor_stand,tag=sep_temp_drip] run execute if entity @e[type=item,sort=nearest,limit=1,distance=..0,nbt={Item: {id: "minecraft:dirt", Count: 1b, tag: {sep_drip: 1b}}}] run function sep_small_dripleaf:grow_dripleaf
+execute at @e[type=minecraft:armor_stand,tag=sep_temp_drip] run execute if items entity @e[type=item,sort=nearest,limit=1,distance=..0] container.0 minecraft:dirt[minecraft:custom_data={sep_drip:true}] run function sep_small_dripleaf:grow_dripleaf
 
 # Remove entities
-kill @e[type=item,nbt={Item:{tag: {sep_drip: 1b}}}]
+execute as @e[type=item] if items entity @s container.0 minecraft:dirt[minecraft:custom_data={sep_drip:true}] at @s run kill @s
 kill @e[type=armor_stand,tag=sep_temp_drip]
 
 

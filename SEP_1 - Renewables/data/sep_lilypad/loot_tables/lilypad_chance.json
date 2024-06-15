@@ -25,8 +25,8 @@
   ],
   "functions": [
     {
-      "function": "minecraft:set_nbt",
-      "tag": "{sep_lily:1b}"
+      "function": "minecraft:set_custom_data",
+      "tag": "{sep_lily:true}"
     }
   ],
   "random_sequence": "sep_lilypad:lilypad_chance"

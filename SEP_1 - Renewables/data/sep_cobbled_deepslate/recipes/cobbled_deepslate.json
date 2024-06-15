@@ -1,9 +1,12 @@
 {
     "type": "minecraft:smelting",
+    "category": "blocks",
     "ingredient": {
         "item": "minecraft:mud"
     },
-    "result": "minecraft:cobbled_deepslate",
+    "result": {
+        "id": "minecraft:cobbled_deepslate"
+    },
     "experience": 0.1,
     "cookingtime": 200
 }

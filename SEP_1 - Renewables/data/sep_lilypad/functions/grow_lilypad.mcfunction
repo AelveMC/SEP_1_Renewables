@@ -10,8 +10,8 @@ place template sep_lilypad:lilypads ~-3 ~0 ~-3
 execute at @e[type=minecraft:armor_stand,tag=sep_temp_lily] run loot spawn ~ ~ ~ loot sep_lilypad:lilypad_chance
 
 # Place a lilypad if the armor_stand and item are in the same place.
-execute at @e[type=minecraft:armor_stand,tag=sep_temp_lily] run execute if entity @e[type=item,sort=nearest,limit=1,distance=..0,nbt={Item: {id: "minecraft:dirt", Count: 1b, tag: {sep_lily: 1b}}}] if block ~ ~-1 ~ water if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:lily_pad
+execute at @e[type=minecraft:armor_stand,tag=sep_temp_lily] run execute if items entity @e[type=item,sort=nearest,limit=1,distance=..0] container.0 minecraft:dirt[minecraft:custom_data={sep_lily:true}] if block ~ ~-1 ~ water if block ~ ~ ~ air run setblock ~ ~ ~ minecraft:lily_pad
 
 # Remove entities
-kill @e[type=item,nbt={Item:{tag: {sep_lily: 1b}}}]
+execute as @e[type=item] if items entity @s container.0 minecraft:dirt[minecraft:custom_data={sep_lily:true}] at @s run kill @s
 kill @e[type=armor_stand,tag=sep_temp_lily]

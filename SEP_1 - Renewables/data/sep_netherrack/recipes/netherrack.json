@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
     "ingredients": [
         {
             "item": "minecraft:clay_ball"
@@ -9,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:netherrack",
+        "id": "minecraft:netherrack",
         "count": 1
     }
 }

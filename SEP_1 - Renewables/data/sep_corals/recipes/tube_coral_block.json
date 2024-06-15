@@ -1,5 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
+    "category": "blocks",
     "pattern": [
         "##",
         "##"
@@ -10,6 +11,6 @@
         }
     },
     "result": {
-      "item": "minecraft:tube_coral_block"
+      "id": "minecraft:tube_coral_block"
     }
 }

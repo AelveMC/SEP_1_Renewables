@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_relic"
+            ],
+            "components": {
+              "minecraft:max_stack_size": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "sep_disc_fragments:disc_relic/detect"
+  }
+}
