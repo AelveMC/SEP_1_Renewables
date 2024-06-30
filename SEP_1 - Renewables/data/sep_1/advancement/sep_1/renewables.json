@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "SEP: Renewables",
+        "description": "Explore, gather, harvest – endlessly.",
+        "icon": {
+            "id": "minecraft:emerald_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:aelve",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

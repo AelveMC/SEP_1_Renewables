@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "#M#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:disc_fragment_5"
+        },
+        "M": {
+            "item": "minecraft:music_disc_creator_music_box"
+        }
+    },
+    "result": {
+        "id": "minecraft:music_disc_creator_music_box",
+		"components": {
+		  "max_stack_size": 2
+		},
+        "count": 2
+    },
+	"group": "disc_copies"
+}

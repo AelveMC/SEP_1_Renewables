@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "misc",
+    "pattern": [
+        "#P#",
+        "PCP",
+        "#P#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:charcoal"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        },
+        "C": {
+            "item": "minecraft:chiseled_tuff_bricks"
+        }
+    },
+    "result": {
+        "id": "minecraft:guster_banner_pattern",
+        "count": 1
+    },
+    "group": "banner_patterns"
+}

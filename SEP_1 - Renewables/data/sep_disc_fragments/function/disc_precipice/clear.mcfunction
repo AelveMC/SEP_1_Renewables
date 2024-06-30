@@ -1,0 +1,1 @@
+return run clear @s minecraft:music_disc_precipice[minecraft:max_stack_size=2] 2
