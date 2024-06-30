@@ -26,12 +26,14 @@ List of all blocks and items that can now be obtained in additional ways.
 - **Dragon Head:** Drops from dragon.
 - **Echo Shard:** Spawns with warden.
 - **Elytra:** Trick a shulker into killing a phantom.
-- **Enchanted Book: Swift Sneak:** Fish up this treasure.
+- **Enchanted Book: Swift Sneak:** In enchanting tables.
+- **Enchanted Book: Wind Burst:** Rare drop from ominous spawners.
 - **Enchanted Golden Apple:** Cats can gift this to you.
 - **Endstone:** Adds new crafting recipe with cobblestone and popped chorus fruit.
 - **Gilded Blackstone:** Adds new crafting recipe with gilded blackstone, blackstone, and gold.
 - **Gravel:** Drops from silverfish infested blocks. 
 - **Heart of the Sea:** Drops from elder guardians.
+- **Heavy Core:** Rare drop from ominous spawners.
 - **Horse Armor:** Chance to be gifted from leatherworker villagers.
 - **Large Fern:** Now drops itself.
 - **Lily Pad:** Bonemeal grass block near water in mangroves and swamps.
