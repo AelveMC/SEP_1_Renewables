@@ -1,8 +1,8 @@
-Welcome to the first in the Survival Enhancement Project series!  
-This series adds or changes various aspects of Survival gameplay that I felt were lacking or underutilised. These changes have been made with balanced gameplay in mind while also keeping everything as "vanilla" as feasible.
+Welcome to Survival Essentials Pack: Renewables!  
+This pack adds or changes various aspects of Survival gameplay that I felt were lacking or underutilized. These changes have been made with balanced gameplay in mind while also keeping everything as "vanilla" as feasible.  
 
-SEP #1 Renewables focuses on correcting the existing blocks and items that are finite or unnecessarily difficult to obtain.  
-The current version is designed for Singleplayer Minecraft 1.20.5. _Multiplayer is untested!!_
+SEP: Renewables focuses on correcting the existing blocks and items that are finite or unnecessarily difficult to obtain.  
+The current version is designed for Singleplayer Minecraft 1.21. _Multiplayer is untested_, but should work.
 
 ## Notable Features
 Adds various methods for obtaining resources renewably: including new crafting recipes, modified loot tables, and some minor overhauls of mechanics, among others.
