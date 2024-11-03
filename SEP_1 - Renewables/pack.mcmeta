@@ -1,12 +1,12 @@
 {
     "pack": {
         "pack_format": 48,
-		"supported_formats": {"min_inclusive": 48, "max_inclusive": 48},
+		"supported_formats": {"min_inclusive": 48, "max_inclusive": 57},
         "description": [
             "Explore, gather, harvest – endlessly",
             "\n",
             {
-                "text": "By Aelve for 1.21",
+                "text": "By Aelve for 1.21 -> 1.21.3",
                 "color": "#40e0d0"
             }
         ]
@@ -42,6 +42,14 @@
 		  {
 			"namespace": "minecraft",
 			"path": "recipes/music_disc_5.json"
+		  }
+		]
+	},
+	"overlays": {
+		"entries": [
+		  {
+			"formats": 57,
+			"directory": "1_21_2"
 		  }
 		]
 	}

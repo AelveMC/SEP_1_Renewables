@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+        "minecraft:sand",
+		"minecraft:raw_iron"
+    ],
+    "result": {
+        "id": "minecraft:red_sand",
+        "count": 8
+    }
+}

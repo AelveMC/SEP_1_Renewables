@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"category": "blocks",
+    "ingredients": [
+        "minecraft:emerald_ore",
+        "minecraft:deepslate"
+    ],
+    "result": {
+        "id": "minecraft:deepslate_emerald_ore",
+        "count": 1
+    },
+	"group": "ore_to_stone"
+}

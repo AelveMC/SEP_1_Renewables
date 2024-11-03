@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "blocks",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "#sep_corals:fire_coral"
+    },
+    "result": {
+      "id": "minecraft:fire_coral_block"
+    }
+}

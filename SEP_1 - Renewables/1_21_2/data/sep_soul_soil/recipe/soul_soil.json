@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:gravel",
+        "minecraft:soul_sand",
+        "minecraft:soul_sand",
+        "minecraft:gravel"
+    ],
+    "result": {
+        "id": "minecraft:soul_soil",
+        "count": 4
+    }
+}

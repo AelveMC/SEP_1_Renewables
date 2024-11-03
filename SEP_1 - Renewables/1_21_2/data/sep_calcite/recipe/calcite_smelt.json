@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:smelting",
+    "category": "blocks",
+    "ingredient": "minecraft:bone_block",
+    "result": {
+        "id": "minecraft:calcite"
+    },
+    "experience": 0.3,
+    "cookingtime": 200
+}

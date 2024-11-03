@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:clay_ball",
+        "minecraft:blaze_powder"
+    ],
+    "result": {
+        "id": "minecraft:netherrack",
+        "count": 1
+    }
+}

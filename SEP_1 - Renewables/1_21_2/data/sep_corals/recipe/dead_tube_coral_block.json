@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "blocks",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "#sep_corals:dead_tube_coral"
+    },
+    "result": {
+      "id": "minecraft:dead_tube_coral_block"
+    }
+}

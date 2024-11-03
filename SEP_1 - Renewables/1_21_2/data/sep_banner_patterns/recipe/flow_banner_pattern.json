@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "misc",
+    "pattern": [
+        "#P#",
+        "PCP",
+        "#P#"
+    ],
+    "key": {
+        "#": "minecraft:charcoal",
+        "P": "minecraft:paper",
+        "C": "minecraft:chiseled_tuff"
+    },
+    "result": {
+        "id": "minecraft:flow_banner_pattern",
+        "count": 1
+    },
+    "group": "banner_patterns"
+}

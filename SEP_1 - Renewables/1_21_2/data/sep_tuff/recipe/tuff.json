@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:andesite",
+        "minecraft:andesite",
+        "minecraft:andesite",
+        "minecraft:andesite",
+        "minecraft:basalt",
+        "minecraft:basalt",
+        "minecraft:basalt",
+        "minecraft:basalt",
+        "minecraft:calcite"
+    ],
+    "result": {
+        "id": "minecraft:tuff",
+        "count": 9
+    }
+}

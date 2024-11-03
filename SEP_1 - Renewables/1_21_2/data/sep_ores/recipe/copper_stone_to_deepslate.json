@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+	"category": "blocks",
+    "ingredients": [
+        "minecraft:copper_ore",
+        "minecraft:deepslate"
+    ],
+    "result": {
+        "id": "minecraft:deepslate_copper_ore",
+        "count": 1
+    },
+	"group": "ore_to_stone"
+}

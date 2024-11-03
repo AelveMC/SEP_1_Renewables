@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "redstone",
+    "pattern": [
+        "igi",
+        "iNi",
+        "igi"
+    ],
+    "key": {
+        "i": "minecraft:iron_ingot",
+        "g": "minecraft:gold_ingot",
+        "N": "minecraft:note_block"
+    },
+    "result": {
+        "id": "minecraft:bell",
+        "count": 1
+    }
+}

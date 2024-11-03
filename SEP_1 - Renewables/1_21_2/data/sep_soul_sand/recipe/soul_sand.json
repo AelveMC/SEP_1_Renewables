@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:sculk",
+        "minecraft:sand",
+        "minecraft:sculk",
+        "minecraft:sand",
+        "minecraft:soul_sand",
+        "minecraft:sand",
+        "minecraft:sculk",
+        "minecraft:sand",
+        "minecraft:sculk"
+    ],
+    "result": {
+        "id": "minecraft:soul_sand",
+        "count": 8
+    }
+}

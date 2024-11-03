@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "misc",
+    "pattern": [
+        "#P#",
+        "PCP",
+        "#P#"
+    ],
+    "key": {
+        "#": "minecraft:charcoal",
+        "P": "minecraft:paper",
+        "C": "minecraft:chiseled_deepslate"
+    },
+    "result": {
+        "id": "minecraft:mojang_banner_pattern",
+        "count": 1
+    },
+    "group": "banner_patterns"
+}

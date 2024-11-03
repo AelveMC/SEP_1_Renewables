@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "blocks",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "#sep_corals:brain_coral"
+    },
+    "result": {
+      "id": "minecraft:brain_coral_block"
+    }
+}

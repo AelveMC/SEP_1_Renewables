@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "blocks",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "#sep_corals:horn_coral"
+    },
+    "result": {
+      "id": "minecraft:horn_coral_block"
+    }
+}

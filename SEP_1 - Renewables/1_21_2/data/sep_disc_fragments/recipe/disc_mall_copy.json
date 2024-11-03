@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "#M#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:disc_fragment_5",
+        "M": "minecraft:music_disc_mall"
+    },
+    "result": {
+        "id": "minecraft:music_disc_mall",
+		"components": {
+		  "max_stack_size": 2
+		},
+        "count": 2
+    },
+	"group": "disc_copies"
+}

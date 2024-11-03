@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "blocks",
+    "ingredients": [
+        "minecraft:cobblestone",
+        "minecraft:popped_chorus_fruit"
+    ],
+    "result": {
+        "id": "minecraft:end_stone",
+        "count": 1
+    }
+}
