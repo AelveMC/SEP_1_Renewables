@@ -25,23 +25,31 @@
 		"block": [
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/creeper_banner_pattern.json"
+			"path": "recipe/creeper_banner_pattern.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/flower_banner_pattern.json"
+			"path": "recipe/flower_banner_pattern.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/mojang_banner_pattern.json"
+			"path": "recipe/mojang_banner_pattern.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/skull_banner_pattern.json"
+			"path": "recipe/skull_banner_pattern.json"
 		  },
 		  {
 			"namespace": "minecraft",
-			"path": "recipes/music_disc_5.json"
+			"path": "recipe/field_masoned_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/bordure_indented_banner_pattern.json"
+		  },
+		  {
+			"namespace": "minecraft",
+			"path": "recipe/music_disc_5.json"
 		  }
 		]
 	},
