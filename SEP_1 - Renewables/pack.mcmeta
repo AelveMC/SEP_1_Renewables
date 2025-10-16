@@ -1,7 +1,9 @@
 {
     "pack": {
         "pack_format": 48,
-		"supported_formats": {"min_inclusive": 48, "max_inclusive": 61},
+		"supported_formats": {"min_inclusive": 48, "max_inclusive": 88},
+        "min_format": 48,
+	    "max_format": [88,0],
         "description": [
             "Explore, gather, harvest – endlessly",
             "\n",
@@ -56,8 +58,16 @@
 	"overlays": {
 		"entries": [
 		  {
-			"formats": {"min_inclusive": 57, "max_inclusive": 61},
+			"formats": {"min_inclusive": 57, "max_inclusive": 88},
+            "min_format": 57,
+	        "max_format": [88,0],
 			"directory": "1_21_2"
+		  },
+          {
+			"formats": {"min_inclusive": 88, "max_inclusive": 88},
+            "min_format": 88,
+	        "max_format": [88,0],
+			"directory": "1_21_9"
 		  }
 		]
 	}
